@@ -1,9 +1,9 @@
 console.log("This is loaded from the external JS file");
 alert("This is an alert!! Click to continue.");
 
-var name = "Luis";
-let school = "Palisades";
-var fun_fact = "I like Chocolate Mint Ice Cream";
+var name = prompt("What is your name?");
+let school = prompt("What school do you attend");
+var fun_fact = prompt("What should people know about you?");
 
 console.log(`Name: ${name}`);
 console.log(`School: ${school}`);
