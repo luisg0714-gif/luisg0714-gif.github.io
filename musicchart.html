@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <title>Music Chart</title>
+     <style>
+      body{
+        background-color: #659bbf;
+      }
+    </style>
+    <script src="https://cdn.plot.ly/plotly-3.6.0.min.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <center>
+      <h1>My Favorite Adele Songs</h1>
+      <div id="plot"></div>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/DeumyOzKqgI?si=n3PXGGOSPilUwVGd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/fk4BbF7B29w?si=SvvltMDps_RqVqBS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/rYEDA3JcQqw?si=HPH6_ufmG9PwPexC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <p><a href="index.html">Return to the Home Page</a></p>
+      <hr>
+      <p>&copy; STEM PREP 2026</p>
+    </center>
+   <script>
+     var songs = ["Skyfall", "Send My Love", "Rolling in the Deep"];
+     var views = [817604749, 1033595496, 2879470956];
+     var trace = {
+       x: songs,
+       y: views,
+       type: "bar"
+     };
+     var data = [trace];
+     var layout = {title: "My Favorite Adele Songs"};
+     Plotly.newPlot("plot", data, layout);
+   </script>
+  </body>
+</html>
