@@ -5,7 +5,7 @@ var popupcode = `<center>
 <iframe width="200" height="100" src="https://www.youtube.com/embed/b1CeG_KeOG8?si=m7hlJbD5-fLPgdiH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </center>`;
 var marker1 = [15.964886, -86.475962]
-var makercode = `<center>
+var markercode = `<center>
 <h3> Cayos Cochinos</h3>
 <a href="travel.jpg">
 <img src="travel.jpg" title="Cayos Cochinos" height="100" widht="200"
