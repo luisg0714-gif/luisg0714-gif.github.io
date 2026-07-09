@@ -5,4 +5,4 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 }).addTo(map);
-L.marker(coordinates, {"title": "Hello from Honduras"}).binPopup("<p>Hello from Hoduras!</p>").addTo(map);
+L.marker(coordinates, {"title": "Hello from Honduras"}).bindPopup("<p>Hello from Hoduras!</p>").addTo(map);
